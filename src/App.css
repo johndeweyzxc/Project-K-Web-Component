@@ -1,0 +1,116 @@
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.topNav {
+  background: royalblue;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.topNav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  font-size: 1em;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  color: royalblue;
+}
+
+.mainDiv {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-weight: normal;
+  width: 85vw;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+textarea {
+  width: 85vw;
+  height: 20vh;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  font-family: Arial, sans-serif;
+  background: #eee;
+  border: 1px solid #cecece;
+  color: #4d4d4d;
+  border-radius: 3px;
+}
+
+h4 {
+  width: 85vw;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.passwordInput {
+  width: 85vw;
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 500px) {
+  .topNav a {
+    letter-spacing: 0;
+    padding: 0.7rem 0.8rem;
+  }
+}
+
+.errorText {
+  visibility: visible;
+  width: 85vw;
+  margin: 0;
+  padding: 0;
+  margin-top: 0.25rem;
+  font-size: 0.8em;
+  color: red;
+  font-family: Arial, sans-serif;
+}
+
+.invisibleErrorText {
+  visibility: collapse;
+}
+
+button {
+  background-color: royalblue;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.9rem 1.5rem;
+  font-size: 1em;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.resultText {
+  visibility: visible;
+  width: 85vw;
+  margin: 0;
+  padding: 0;
+  color: green;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
